@@ -1,0 +1,16 @@
+.servicproduct{
+    padding: 50px 0;
+    i{
+        font-size: 40px;
+        color:#7971ea ;
+    }
+    &__card{
+        justify-content: space-between;
+        padding: 24px;
+        &__img{
+            display: flex;
+            align-items: start;
+            justify-content: center;
+        }
+    }
+}

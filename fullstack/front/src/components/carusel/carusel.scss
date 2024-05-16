@@ -1,0 +1,14 @@
+.Carusel__visable{
+    overflow: hidden;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    button{
+         i{
+            font-size: 30px;
+         }
+    }
+}

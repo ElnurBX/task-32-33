@@ -1,0 +1,55 @@
+.BigSale{
+    padding: 100px 0;
+    h2{
+        margin-bottom: 100px;
+        position: relative;
+        padding: 10px 0;
+        &::after{
+            position: absolute;
+            content: "";
+            width: 5%;
+            height: 5px;
+            left: 47.5%;
+            top: -10px;
+            border-radius: 5px;
+            background-color: rgb(98, 72, 153);
+
+        }
+    }
+    button{
+        border: 0;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(98, 72, 153);
+        color: #fff;
+    }
+    &__img{
+        img{
+            width:100% ;
+        }
+        
+    }
+    &__left{
+        padding:10% 8%;
+        text-align: center;
+        a{
+            color: rgb(98, 72, 153);
+            text-decoration: none;
+            font-size: 30px;
+        }
+        &__discount{
+            display: flex;
+            flex-direction: column;
+        }
+        p{
+            padding: 10px 10%;
+        }
+        button{
+            position: relative;
+            left: 40%;
+            width: 20%;
+        }
+    }
+}

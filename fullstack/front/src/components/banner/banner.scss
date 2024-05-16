@@ -1,0 +1,22 @@
+.banner{
+    background-image: url(https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg.webp);
+    height: calc(100vh - 174px);
+    position: relative;
+    &__img{
+        padding-top: 30vh;
+        display: flex;
+        justify-content: end;
+        h2{
+            font-size: 50px;
+        }
+        .btn-pruple{
+            border: 0;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(98, 72, 153);
+            color: #fff;
+        }
+    }
+}

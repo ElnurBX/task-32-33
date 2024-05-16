@@ -1,0 +1,23 @@
+footer{
+    ul{
+        list-style: none;
+        li{
+            padding: 10px;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .send{
+        display: flex;
+    button{
+        border: 0;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(98, 72, 153);
+        color: #fff;
+    }}
+}
